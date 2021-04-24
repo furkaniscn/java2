@@ -3,7 +3,7 @@ package oopIntro;
 public class Product {
 	
 	public Product() { 
-		System.out.println("Ben çalýþtým"); 
+		System.out.println("Ben calistim"); 
 	}
 	
 	public Product(int id,String name,double unitPrice,String detail) {
