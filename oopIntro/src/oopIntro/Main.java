@@ -4,16 +4,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Product product1 = new Product(1,"Lenovo V14", 15000, "16GB Ram"); // Klas oluþturma böyle yapýlýr, örnek oluþturma, referans oluþturma, intance
+		Product product1 = new Product(1,"Lenovo V14", 15000, "16GB Ram"); 
 
 		
-		Product product2 = new Product(); // Classlar kýsaca özellik tutucu özelliðe sahiptir
+		Product product2 = new Product(); 
 		product2.id = 2;
 		product2.name = "Lenovo V15";
 		product2.unitPrice = 16000;
-		product2.detail = "32 GB Ram"; // Hepsiburada P1,P2,P3 gibi kodladýk
+		product2.detail = "32 GB Ram"; 
 		
-		Product product3 = new Product(); // Stock ve Heap kýsmý, heap=newden sonra baþlar 
+		Product product3 = new Product(); 
 		product3.id = 1;
 		product3.name = "Hp 5";
 		product3.unitPrice = 10000;
@@ -28,7 +28,7 @@ public class Main {
 		
 		System.out.println(products.length);
 		
-		System.out.println("----------------------------");
+		System.out.println("---------------------------------"); // Ciktilar karismamasi amaciyla yapilmistir
 		
 		
 		Category category1 = new Category();
@@ -37,13 +37,13 @@ public class Main {
 		
 		Category category2 = new Category();
 		category2.id = 2;
-		category2.name = "Ev/Bahçe";
+		category2.name = "Ev/BahÃ§e";
 		
-		System.out.println("----------------------------------");
+		System.out.println("----------------------------------"); // Ciktilar karismamasi amaciyla yapilmistir
 		
 		
 		ProductManager productManager = new ProductManager();
-		productManager.addToCart(product1); // Sepeteye ne ekleyecek içine yazabiliriz buna parametre denir 
+		productManager.addToCart(product1); 
 		
 		productManager.addToCart(product2);
 		
