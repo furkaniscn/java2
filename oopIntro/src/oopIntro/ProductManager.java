@@ -1,9 +1,9 @@
-package oopIntro; // Metot Ekleme !!!!!!!!!!!!!!!!!!!
+package oopIntro; 
 
 public class ProductManager {
-	public void addToCart(Product product) { // Ýstediðin ismi verebilirsin
-		System.out.println("Sepete eklendi: " + product.name); // Burda yapýlan bir deðiþiklik her yeri etkiler
-		// Sepete eklenen ürünün ismi simile ediyoruz ve birden fazla parametre varsa yazabilirsin içine
+	public void addToCart(Product product) { 
+		System.out.println("Sepete eklendi: " + product.name); 
+		
 	}
 
 }
